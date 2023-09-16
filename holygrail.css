@@ -1,0 +1,74 @@
+
+header {
+
+    width: 90%;
+    height: 100px;
+    background-color: #8DBAA4;
+    border: 3px solid grey;
+    padding: 10px;
+    margin: 25px;
+
+}
+
+
+
+nav {
+
+    position: fixed;
+    width: 90%;
+    height: 50px;
+    background-color: #CC9881;
+    position: fixed;
+    top: 170px;
+    left: 35px;
+
+}
+
+
+
+article {
+
+    width: 65%;
+    height: 200px;
+    background-color: #FADFC1;
+    border: 5px solid grey;
+    position: relative;
+    top: 15px;
+
+}
+
+
+
+aside {
+
+    width: 40%;
+    height: 420px;
+    background-color: #A87B9F;
+    position: absolute;
+    left: 50%;
+    right: 10%;
+    top: 235px;
+
+}
+
+
+
+footer {
+
+    width: 100%;
+    height: 50px;
+    background-color: #656D8C;
+    position: fixed;
+    bottom: 0px;
+
+}
+
+
+
+.articles {
+    position: relative;
+    left: 30px;
+    top: 45px;
+    width: 65%;
+    height: 70%;
+}
