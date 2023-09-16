@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout</title>
+    <link rel="stylesheet" href="holygrail.css">
+</head>
+
+
+<body>
+
+    <header>
+        <p> This is the Header. This element was not given a position in CSS, so by default it is given a static position. This will leave the element at the top, left of the webpage. </p>
+    </header>
+
+    <nav>
+        <p> This is the Navigation bar which has a fixed position on the webpage. This means it will remain in the same place regardless of where the user scrolls the page. Due to the CSS top property, this element starts 170px from the top and 35px from the left.  </p>
+    </nav>
+
+    <div>
+
+        <div class="articles">
+
+            <article> This is an article that is within a div class called "articles". This tag is given a relative position, which means that it is placed 15px from the top in relation to other tags in the same div. </article>
+            <article> This is another article tag within the "articles" div. The "articles" div is given a relative position. This means that it is 45px from the top and 30px from the left. Both of these article tags will move with the scroll.   </article>
+
+        </div>
+    <aside>This is an Aside. This tag is also within the same div tag that the "articles" tag was located. The positioning used for this tag is absolute. An Absolute position means that this tag will be placed in relation to the nearest tag within the same div. It will also move with the scroll, moving either in front or behind the fixed elements.   </aside>
+
+    </div>
+
+    <footer>
+        <p>This is the footer. The footer is placed in a fixed postion at the very bottom of the page. This means that it will always stay at the bottom regardless of where the page is being scrolled.  </p>
+    </footer>
+
+</body>
+
+</html>
